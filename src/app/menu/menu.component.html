@@ -3,11 +3,13 @@
       [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
       [mode]="(isHandset$ | async) ? 'over' : 'side'"
       [opened]="(isHandset$ | async) === false">
-    <mat-toolbar>Menu</mat-toolbar>
+    <mat-toolbar>
+      <img src="../assets/images/smarthouse.svg" class="houz-icon">
+    </mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item href="#">Link 1</a>
-      <a mat-list-item href="#">Link 2</a>
-      <a mat-list-item href="#">Link 3</a>
+      <a mat-list-item href="#" class="nav-list">Dashboard</a>
+      <a mat-list-item href="#" class="nav-list">Funcionários</a>
+      <a mat-list-item href="#" class="nav-list">Configuração</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
