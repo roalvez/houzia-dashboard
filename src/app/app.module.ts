@@ -18,6 +18,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { BarChartComponent } from './bar-chart/bar-chart.component';
 import { DoughnutChartComponent } from './doughnut-chart/doughnut-chart.component';
+import { PieChartComponent } from './pie-chart/pie-chart.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { DoughnutChartComponent } from './doughnut-chart/doughnut-chart.componen
     MenuComponent,
     DashboardComponent,
     BarChartComponent,
-    DoughnutChartComponent
+    DoughnutChartComponent,
+    PieChartComponent
   ],
   imports: [
     ChartsModule,
