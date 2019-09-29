@@ -17,13 +17,15 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { BarChartComponent } from './bar-chart/bar-chart.component';
+import { DoughnutChartComponent } from './doughnut-chart/doughnut-chart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     DashboardComponent,
-    BarChartComponent
+    BarChartComponent,
+    DoughnutChartComponent
   ],
   imports: [
     ChartsModule,
